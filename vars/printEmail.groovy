@@ -5,7 +5,7 @@ def call() {
 
   // Print email variable with user and job name
   def email = "${user}@mycompany.com"
-  echo "Email: ${email} (User: ${user}, Job: ${jobName})"
+  echo "Email: \${var_email} (User: ${user}, Job: ${jobName})"
 }
 
 def getCurrentUser() {
